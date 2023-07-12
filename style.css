@@ -100,9 +100,29 @@ nav a{
 /* About Section */
 
 .about-section{
-    margin: 100px 230px 100px 230px;
-    width: 1140px;
-    height: 550px;
+    margin: 130px 0;
+    padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
+}
+.about-foot-sec{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 179px 131px 179px;
+  text-align: center;
+
+}
+.about-me{
+    color: var(#181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-des{
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+   
 }
