@@ -1,0 +1,65 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 200px;
+ 
+    
+}
+.r{
+    color: red;
+}
+.mary{
+color: #181818;
+font-size: 45px;
+font-style: normal;
+font-weight:800;
+
+
+}
+.nav-btn{
+    border-radius: 2px;
+    background: #FD6E0A;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+   
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+nav  li{
+    list-style: none;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.h{
+    background: #FFF8F3;
+}     
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+}        
+.banner-btn{
+    border-radius: 2px;
+    background: #FD6E0A;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+   
+}  
+.hardy{
+    width: 584px;
+    height: 676px;
+}
