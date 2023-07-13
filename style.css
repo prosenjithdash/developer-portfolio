@@ -97,6 +97,11 @@ nav a{
     border: 1px solid #FD6E0A;
     font-size: 20px;
 }
+/*Main section*/
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
 /* About Section */
 
 .about-section{
@@ -105,14 +110,7 @@ nav a{
     border-radius: 10px;
     background: #FFF8F3;
 }
-.about-foot-sec{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 179px 131px 179px;
-  text-align: center;
 
-}
 .about-me{
     color: var(#181818);
     text-align: center;
@@ -125,4 +123,134 @@ nav a{
     text-align: center;
     font-size: 18px;
    
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color:  #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+.info-des{
+    color: black ;
+    font-size: 20px;
+    padding: 3px 0 3px 0;
+    
+}
+
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+
+}
+.section-des{
+    padding: 30px 150px;
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    
+}
+.skill{
+   
+    padding: 30px;
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.icon{
+    padding: 30px 193px 0 30px ;
+    width: 44px;
+    height: 44px;
+
+}
+.skill-title{
+    padding: 30px 63px 0px 30px;
+    color: #181818;
+    text-align:left;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-des{
+    padding: 30px 33px;
+    text-align: justify;
+    width: 201px;
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+
+}
+.resume-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+}
+.resume-container{
+   
+
+}
+.resume-left{
+
+}
+.resume-right{
+
+}
+.resume-col{
+
+}
+.resume-col-name{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.resume-item{
+
+}
+.resume-title-name{
+    color: #474747;
+    font-size: 25px;
+    text-align: left;
+}
+.resume-title-des{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.resume-des{
+ width: 511px;
+color:#757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; /* 175% */
+
+}
+hr{
+    width: 558px;
+    height: 1px;
+    background: #D1D1D1;
+ 
 }
